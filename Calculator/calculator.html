@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+        <title>CALCULATOR</title>
+        
+        <!--<link rel="stylesheet" type="text/css" style="calculator.css">-->
+
+    </head>
+
+    <body>
+
+        <br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card my-5">
+                        <div class="card-header">
+                            Calculator
+                        </div>
+                        <div class="card-body">
+                    
+                            <h1>Calculator</h1>
+
+                            <br><br>
+
+                            <label for="txtfirstnumber" class="form-lable">First Number</label>
+                            <br><br>
+                            <input type="number" id="txtfirstnumber" class="form-control">
+                            <br><br>
+
+                            <label for="txtsecondnumber" class="form-lable">Second Number</label>
+                            <br><br>
+                            <input type="number" id="txtsecondnumber" class="form-control">
+
+                            <div>
+                                <button type="submit" onclick="add()" class="btn btn-danger my-5">+</button>
+                                <button type="submit" onclick="substract()" class="btn btn-secondary my-5">-</button>
+                                <button type="submit" onclick="division()" class="btn btn-warning my-5">/</button>
+                                <button type="submit" onclick="multiplication()" class="btn btn-info my-5">*</button>
+                                <button type="submit" onclick="remainder()" class="btn btn-success my-5">%</button>
+                                <button type="submit" onclick="exponentiation()" class="btn btn-dark my-5">**</button>
+                            </div>
+
+                            <div class="d-grid gap-2">
+                                <button type="submit" onclick="calculate()" class="btn btn-primary my-5">Calculate</button>
+                            </div>
+
+                            <label for="txtresult" class="form-lable">Result</label>
+                        
+                            <input type="number" id="txtresult" class="form-control">
+                            <br><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+        <script src="calculator.js"></script>
+
+    </body>
+</html>
