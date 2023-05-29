@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(7, 8, 32, 0.80), rgba(10, 10, 24, 0.80)), url(Background\ Image.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.header{
+    width: 100%;
+    height: 120px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo{
+    width: 300px;
+    cursor: pointer;
+    margin-left: 60px;
+}
+
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+    font-weight: 600;
+}
+
+
+ul li a{
+    text-decoration: none;
+    padding: 7px;
+    margin: 0;
+    color: white;
+}
+
+
+ul li a:hover{
+    background-color: antiquewhite;
+    color: black;
+    cursor: pointer;
+    padding: 7px;
+}
+
+
+
+h3{
+    color: white;
+    background-color: rgb(237, 176, 71);
+    width: 250px;
+    margin-right: 60px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 300;
+}
+
+
+h3:hover{
+    background-color: lightpink;
+    color: black;
+    cursor: pointer;
+}
+
+
+.mid{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.pha{
+    margin-left: 75px;
+}
+
+
+h1{
+    color: white;
+    width: 400px;
+    letter-spacing: 4px;
+}
+
+
+p{
+    color: white;
+    width: 600px;
+}
+
+
+.img{
+    width: 450px;
+    padding-right: 65px;
+    margin-right: 250px;
+    margin-left: 150px;
+    padding: 0 30px;
+    margin-top: 150px;
+}
