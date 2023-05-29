@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+
+        <title>Chilly Foods</title>
+
+        <link rel="stylesheet" type="text/css" href="Assignment 02.css">
+
+    </head>
+    
+    <body>
+
+        <div class="main">
+            <div class="header">
+                <img src="Logo.png" class="logo">
+
+                <ul class="line">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">MENU</a></li>
+                    <li><a href="#">DRINKS</a></li>
+                    <li><a href="#">ONLINE ORDER</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                </ul>
+
+                <h3 class="button">ONLINE ORDER</h3>
+            </div>
+
+            <div class="mid">
+                <div class="pha">
+                    <h1>Enjoy Our Delicious Meal</h1>
+
+                    <p>Tempar erat elitr reburn clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet loren sit clita duo justo magna dolore erat amet</p>
+                </div>
+                <img src="Food Image.png" class="img">
+            </div>
+        </div>
+    </body>
+
+</html>
