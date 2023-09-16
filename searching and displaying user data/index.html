@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Details of Users</h1>
+
+    <!-- Search input and button -->
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search Users">
+        <button id="searchButton">Search</button>
+    </div>
+
+    <!-- Table to display user data -->
+    <table id="userTable">
+        <thead class="table-dark">
+            <tr class="row1">
+                <th class="column">First Name</th>
+                <th class="column">Last Name</th>
+                <th class="column">Email</th>
+            </tr>
+        </thead>
+        <tbody id="userTableBody">
+            <!-- User data will be displayed here -->
+        </tbody>
+    </table>
+
+    <!-- Error message container -->
+    <div id="errorMessage" class="hidden"></div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
