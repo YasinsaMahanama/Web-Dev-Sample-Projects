@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.products{
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0.75em;
+}
+
+#cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 23%;
+    box-shadow: 0 0 4px 3px black; 
+    text-align: center;
+    padding: 1.5em;
+    margin-bottom: 2em;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+  }
+
+.images{
+    width: 80%;
+    margin-top: 40px;
+}
+
+.title{
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+
+/* .category {
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 1em;
+} */
+.price{
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 1em;
+}
+
+.add-to-cart-button {
+    background-color: black;
+    font-size: 1em;
+    font-weight: 500;
+    color: wheat;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .add-to-cart-button:hover {
+    border: black solid 2px;
+    background-color: #f9f9f9;
+    color: darkblue;
+    font-weight: 700;
+    font-size: 1em;
+  }
+  
+  
+  #cart {
+    margin-top: 3em;
+    padding: 1em;
+    border: 5px solid black;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    
+  }
+  
+  #cart h2 {
+    font-size: 2em;
+    font-weight: 400;
+    text-align: center;
+    font-size: 3em;
+    color: darkblue;
+  }
+  
+  #cart-total {
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+  }
+
+  .p1{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .remove-button{
+    color: wheat;
+    background-color: black;
+    padding: 2px 2px;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+
+  .remove-button:hover{
+    cursor: pointer;
+    border: black solid 2px;
+    background-color: #f9f9f9;
+    color: red;
+    font-weight: 700;
+    font-size: 1em;
+  }
+
+  .cart-item img{
+    width: 100px;
+  }
+
+  .cart-item{
+    margin: 2em;
+    margin-top: 1em;
+    /* display: flex; */
+  }
+
+  .cart-flex{
+    display: flex;
+  }
