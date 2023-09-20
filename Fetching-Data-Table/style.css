@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+img{
+    width: 100px;
+}
+
+.item-header{
+    text-align: center;
+}
+div{
+    padding: 10px;
+}
+.item-container{
+    display: flex;
+    justify-content: space-around;
+}
