@@ -12,7 +12,7 @@
 
 ## Fetching-Data-Table
 
-![page](https://github.com/YasinsaMahanama/Web-Dev-Sample-Projects/assets/122031127/6c723849-70e4-4bb5-9e01-973b2cb4b928)
+![page](https://github.com/YasinsaMahanama/Web-Dev-Sample-Projects/assets/122031127/53aba342-cfe8-401a-b0f9-42ede7da80ac)
 
 
 ## Guestbook
